@@ -1,0 +1,23 @@
+# Infrastructure Health Predictor dependencies
+# Some versions pinned, others not - typical human project
+
+fastapi
+uvicorn[standard]
+pydantic
+sqlalchemy
+redis  # for caching
+pytest
+scikit-learn
+tensorflow  # for LSTM models
+pandas
+numpy
+matplotlib
+prometheus-client
+kubernetes
+# psycopg2-binary  # commented out for now, might add later
+joblib
+seaborn  # for better visualizations
+jupyter  # for exploration notebooks
+black  # code formatting
+flake8  # linting
+# tensorflow-gpu==2.15.0  # old line kept for reference
