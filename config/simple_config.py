@@ -1,0 +1,2 @@
+# Basic config
+DEBUG = True
